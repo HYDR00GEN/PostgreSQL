@@ -2,9 +2,11 @@
 
 `\l` `\d` `\c`
 
-`psql --username=name dbname=postgres`
-`CREATE DATABASE name_database;`
-`CREATE TABLE name_table();`
+```
+psql --username=name dbname=postgres
+CREATE DATABASE name_database;
+CREATE TABLE name_table();
+```
 
 > adds new column to table with INT
 > `ALTER TABLE second_table ADD COLUMN first_column INT;`
