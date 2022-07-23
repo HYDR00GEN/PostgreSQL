@@ -9,21 +9,27 @@ CREATE TABLE name_table();
 ```
 
 > adds new column to table with INT
-> `ALTER TABLE second_table ADD COLUMN first_column INT;`
+
+```
+ALTER TABLE second_table ADD COLUMN first_column INT;
+```
 
 //delete a column
-`ALTER TABLE table_name DROP COLUMN column_name;`
+
+```
+ALTER TABLE table_name DROP COLUMN column_name;
+```
 
 VARCHAR(30)
 
-`ALTER TABLE table_name RENAME COLUMN column_name TO new_name;`
+ALTER TABLE table_name RENAME COLUMN column_name TO new_name;
 
 // values
-`INSERT INTO table_name(column_1, column_2) VALUES(value1, value2);`
+INSERT INTO table_name(column_1, column_2) VALUES(value1, value2);
 
-`DELETE FROM table_name WHERE condition;`
+DELETE FROM table_name WHERE condition;
 
-`DROP TABLE table_name;`
+DROP TABLE table_name;
 
 ALTER DATABASE database_name RENAME TO new_database_name;
 
